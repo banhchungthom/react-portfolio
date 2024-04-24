@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-        <div className="flex flex-row items-center py-[6px] px-4 bg-blue-600/100 rounded-[10px] mb-2">
+        <div className="flex flex-row items-center py-[6px] px-4 bg-blue-gradient rounded-[10px] mb-2">
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">Chào mừng đến với trang web của tôi</span>
           </p>

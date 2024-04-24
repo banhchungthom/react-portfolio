@@ -16,10 +16,10 @@ const App = () => (
         <div className={`bg-teal-500 ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Projects />
-            <Testimonials />
-            <Footer />  
+            <Testimonials /> 
           </div>
         </div>
+        <Footer /> 
       </div>
 )
 

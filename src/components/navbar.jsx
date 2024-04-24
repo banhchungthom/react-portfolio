@@ -22,7 +22,7 @@ const NavBar = () => {
       </ul>
       <div className='ss:hidden flex flex-1 justify-end items-center '>
           <img src={Toggle? close:menu} className='object-contain cursor-pointer' onClick={()=>setToggle(!Toggle)}/>
-          <div className={`${Toggle? 'flex': 'hidden'} sidebar p-6 top-20 right-0 mx-4 my-0 bg-blue-600/100 min-w-[140px] rounded-xl absolute`}>
+          <div className={`${Toggle? 'flex': 'hidden'} sidebar p-6 top-20 right-0 mx-4 my-0 bg-blue-gradient min-w-[140px] rounded-xl absolute`}>
             <ul className='list-none flex-col justify-end items-center flex-1'>
               {navLinks.map((nav) => (
                 <li 

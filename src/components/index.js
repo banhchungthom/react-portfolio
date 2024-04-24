@@ -1,18 +1,16 @@
-import NavBar from "./navbar";
-import CardDeal from "./CardDeal";
+import NavBar from "./Navbar";
 import Projects from "./Project";
 import Clients from "./Clients";
-import CTA from "./CTA";
+import FeedbackCard from "./FeedbackCard";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
-import Hero from "./hero";
+import Hero from "./Hero";
 import DownloadCV from "./DownloadCV";
 export {
   NavBar,
-  CardDeal,
   Projects,
   Clients,
-  CTA,
+  FeedbackCard,
   Footer,
   Testimonials,
   Hero,

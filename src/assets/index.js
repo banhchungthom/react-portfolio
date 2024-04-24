@@ -24,7 +24,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import logod from "./logod.png";
-import CV from "./CV.pdf";
+import github from "./github-mark.png";
 
 export {
   airbnb,
@@ -53,5 +53,5 @@ export {
   people02,
   people03,
   logod,
-  CV
+  github
 };

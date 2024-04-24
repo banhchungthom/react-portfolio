@@ -9,13 +9,13 @@
 
 
 :root {
-  --black-gradient: linear-gradient(
+  --blue-gradient: linear-gradient(
     144.39deg,
     #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
-  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+    #00acdf -78.47%,
+    #0080bf 91.61%
+);
+  --card-shadow: 0px 20px 100px -10px rgba(23, 47, 141, 0.1);
 }
 
 * {
@@ -39,13 +39,10 @@
 
 .bg-blue-gradient {
   background: linear-gradient(
-    157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    144.39deg,
+    #ffffff -278.56%,
+    #00acdf -78.47%,
+    #0080bf 91.61%
   );
 }
 
@@ -118,7 +115,7 @@
 }
 
 .feature-card:hover {
-  background: var(--black-gradient);
+  background: var(--blue-gradient);
   box-shadow: var(--card-shadow);
 }
 
@@ -127,11 +124,12 @@
 }
 
 .feedback-card {
-  background: transparent;
+  background: var(--blue-gradient);
+  transition: transform 0.3s ease-in-out;
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  transform: scale(1.1);
 }
 
 .blue__gradient {
